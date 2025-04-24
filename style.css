@@ -1,0 +1,68 @@
+/* General background and font */
+html, body, [class*="css"] {
+    background-color:#121212 ;
+    color: #f0f0f0 ;
+    font-family: "Segoe UI", sans-serif ;
+    font-size: 16px;
+}
+
+/* Title styling */
+h1, h2, h3 {
+    color: #00BFFF ;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form text input and number input */
+input[type="text"], input[type="number"], textarea {
+    background-color: #1e1e1e ;
+    color: #ffffff ;
+    border: 1px solid #555555;
+    border-radius: 6px ;
+    padding: 10px ;
+    font-size: 15px !;
+}
+
+/* Select box styling */
+div[data-baseweb="select"] {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border-radius: 6px !important;
+    border: 1px solid #555555 !important;
+}
+
+div[data-baseweb="select"] * {
+    color: #ffffff !important;
+}
+
+/* Radio buttons and labels */
+label[data-baseweb="radio"] {
+    color: #f0f0f0 !important;
+    font-size: 15px !important;
+    font-weight: 500;
+}
+
+/* Wrapper around radio/select box */
+.stRadio > div, .stSelectbox > div {
+    background-color: #1e1e1e !important;
+    border: 1px solid #555555 !important;
+    border-radius: 6px !important;
+    padding: 10px !important;
+    margin-bottom: 12px;
+}
+
+/* Buttons */
+button {
+    background-color: #00BFFF !important;
+    color: #ffffff !important;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #009ACD !important;
+}
